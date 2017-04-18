@@ -1,4 +1,4 @@
-package com.leocardz.link.preview.library;
+package com.womply.linkpreview;
 
 /**
  * Callback that is invoked with before and after the loading of a link preview

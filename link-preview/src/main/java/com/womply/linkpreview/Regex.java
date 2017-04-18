@@ -1,4 +1,4 @@
-package com.leocardz.link.preview.library;
+package com.womply.linkpreview;
 
 import java.util.ArrayList;
 import java.util.List;
