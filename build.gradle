@@ -2,7 +2,6 @@
 
 buildscript {
     repositories {
-        maven { url 'https://github.com/vfutia-womply/mvn-repo/raw/master/maven-deploy' }
         jcenter()
     }
     dependencies {
@@ -15,7 +14,6 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'https://github.com/vfutia-womply/mvn-repo/raw/master/maven-deploy' }
         jcenter()
     }
 }
