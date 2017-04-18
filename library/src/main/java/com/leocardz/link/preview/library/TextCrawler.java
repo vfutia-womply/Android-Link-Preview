@@ -71,10 +71,11 @@ public class TextCrawler {
 			// Don't forget the http:// or https://
 			urls = SearchUrls.matches(params[0]);
 
-			if (urls.size() > 0)
+			if (urls.size() > 0) {
 				sourceContent
 						.setFinalUrl(unshortenUrl(extendedTrim(urls.get(0))));
-			else
+				sourceContent.setOrigUrl(urls.get(0));
+			}  else
 				sourceContent.setFinalUrl("");
 
 			if (!sourceContent.getFinalUrl().equals("")) {

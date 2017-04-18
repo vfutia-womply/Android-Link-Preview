@@ -7,6 +7,7 @@ import java.util.List;
 public class SourceContent {
 
 	private boolean success = false;
+	private String origUrl = "";
 	private String htmlCode = "";
 	private String raw = "";
 	private String title = "";
@@ -187,4 +188,11 @@ public class SourceContent {
 		this.urlData = urlData;
 	}
 
+	public String getOrigUrl() {
+		return origUrl;
+	}
+
+	public void setOrigUrl(String origUrl) {
+		this.origUrl = origUrl;
+	}
 }
